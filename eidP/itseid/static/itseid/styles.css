@@ -4,7 +4,13 @@ body {
     font-family:  'Droid Arabic Kufi', serif;
     font-size: 100px;
     text-align: center;
-    color: #00900A;
-    background-color:  #D9CD44;
+    
+}
+h1{
+  color: #00900A;
+  background-color:  #D9CD44;
+  background: -webkit-linear-gradient(#0E6D14, #00900A, #D9CD44);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 

@@ -4,10 +4,11 @@
 <html lang="ar">
 
 <head>
+    <meta charset="UTF-8">
     <title>اليوم عيد؟ </title>
     <link href="{% static 'itseid/styles.css' %}" rel="stylesheet">
 </head>
-<body id="makeItRain" onload="makeItRain()">
+<body id="makeItRain" onload="makeItRain()" and onclick="makeItRain()">
     {% if eid %}
     <h1>نعم!</h1>
     <script>
@@ -67,7 +68,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     {% else %}
-    <h1>لا لسة </h1>
+    <h1>لا ليس بعد </h1>
     {% endif %}
     
 </body>

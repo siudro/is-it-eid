@@ -4,7 +4,8 @@ import datetime
 def index(request):
     now = datetime.datetime.now()
     return render(request , "itseid/index.html", {
-        "eid":False 
-        #True
+        "eid":True
          #now.month == 4 and now.day == 20
+         # to do:
+         # add https://github.com/dr-prodigy/python-holidays for accurate results 
     })
